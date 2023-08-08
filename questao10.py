@@ -9,4 +9,4 @@ votos_nulos = int(input("Qual foi o número de votos nulos?: "))
 votos_validos = int(input("Qual foi o número de votos validos?: "))
 
 
-print(f"\nVotos totais: {numero}\nVotos brancos: {(votos_brancos/numero) * 100}%\nVotos nulos: {(votos_nulos/numero) * 100}%\nVotos validos: {(votos_validos/numero) * 100}%")
+print(f"\nVotos totais: {numero}\nVotos brancos: {(votos_brancos/numero) * 100:.2f}%\nVotos nulos: {(votos_nulos/numero) * 100:.2f}%\nVotos validos: {(votos_validos/numero) * 100:.2f}%")
